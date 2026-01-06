@@ -11,7 +11,7 @@ generateBtn.addEventListener("click", () => {
     input.style.borderColor = "red";
     errorMsg.innerText = "Please enter your url";
   }
-  const qrCode = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${input.value}`;
+  const qrCode = `https://api.qrserver.com/v1/create-qr-code/?size=500x500&data=${input.value}`;
   qrImage.src = qrCode;
 });
 
